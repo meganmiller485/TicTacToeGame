@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+}
+
+h1{
+    text-align: center;
+}
+
+main{ 
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.cell {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20vh;
+    height: 20vh;
+    font-size: 10vh;
+    border: 1px black solid;
+}
+
+.winDraw{
+    text-align: center;
+    font-size: 24pt;
+}
+
+#playerTurn{
+    text-align: center;
+}
+
+#reset{
+    text-align: center;
+}
